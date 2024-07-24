@@ -95,7 +95,7 @@ create table user_behavior (
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/330f7bc823c144c8b814921d5d9ae4aa.png)
 
-<center><b>图 3 项目预处理图</b></center>
+<center><b>图 3 项目预处理流程图</b></center>
 
 1.首先我们改变字段名:将timestamp改为timestamps,避免与数据类型混淆     PS:上图是过程中的图,已经改过了
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/9c302832406645a8974a5d7ac3ae955d.png)
