@@ -91,7 +91,7 @@ create table user_behavior (
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/ef362ba4acaa437e8c80778940c0f1f8.png)
 
 ### 数据处理与分析
-#### 一:数据预处理
+### 一:数据预处理
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/330f7bc823c144c8b814921d5d9ae4aa.png)
 
@@ -156,7 +156,7 @@ update user_behavior set hours=substring(datetimes,12,2);
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/25b1243f1e8b417291f0dfb3b94a809b.png)
 
-#### 二:获客情况
+### 二:获客情况
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/0c60ade8341a43a6afc4a8162a409688.png)
 1.首先创建temp_behavior临时表来拉取储存来自user_behavior中的10万条数据,通过小样本数据来处理避免出现失误,造成数据破坏,带来不必要的麻烦
 temp_behavior临时表如下
@@ -169,29 +169,29 @@ temp_behavior临时表如下
 -- 创建pv_uv_puv来存储页面浏览量,独立访客数以及浏览深度pv/uv
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b6e1f09f9ddb48f198d7252389796a13.png)
 
-##### 三:留存情况
+### 三:留存情况
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/17704a0ce95d41bfb7776aaee19879a1.png)
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/08ed9f5cd8834923b58efcc2f0d04b9a.png)
 <center><b>图4 活跃用户次日留存率</b></center>
 
-##### 四:时间序列分析
+### 四:时间序列分析
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/221ca22809e14ae38995eaadc44dd453.png)
 <center><b>图5 用户购买及收藏加购率日内变化</b></center>
 
-##### 五:用户转化率分析
+### 五:用户转化率分析
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/33b7bc243e4443e19896ebd52bb91d02.png)
 <center><b>图6 收藏加购流量转化率</b></center>
 
-##### 六:行为路径分析
+### 六:行为路径分析
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/fc8f46917b6343a3a29043f716c9434b.png)
 <center><b>图7 用户行为路径分析</b></center>
 
-##### 七:RFM模型
+### 七:RFM模型
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/0bab97e0968c4cbbb3e0aa713ab1b095.png)
 <center><b>图8 用户定位RFM模型</b></center>
 
-##### 八:商品按热度分类
+### 八:商品按热度分类
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/4fd103558cba48d5b98f758bc8c82d81.png)
 <center><b>图9 热门商品分析</b></center>
 
