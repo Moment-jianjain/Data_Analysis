@@ -46,18 +46,60 @@
 
 ## 3. 项目实现
 
-​		该项目一共分为三个子任务完成，**数据采集—数据预处理—数据分析/可视化。**
+​	**该项目一共分为三个子任务完成 : 数据采集—数据预处理—数据分析/可视化。**
 
-本项目的数据集来之阿里天池的 **[淘宝用户购物行为数据集](https://tianchi.aliyun.com/dataset/649)** <<<<< **可点击中具体查看**
+**本项目的数据集来之阿里天池的 [淘宝用户购物行为数据集](https://tianchi.aliyun.com/dataset/649)** <<<<< **可点击中具体查看**
+
+
+### 数据集介绍
+UserBehavior.csv
+本数据集包含了2017年11月25日至2017年12月3日之间，有行为的约一百万随机用户的所有行为（行为包括点击、购买、加购、喜欢）。
+
+数据集的组织形式和MovieLens-20M类似，即数据集的每一行表示一条用户行为，由用户ID、商品ID、商品类目ID、行为类型和时间戳组成，并以逗号分隔。
+
+关于数据集中每一列的详细描述如下：
+
+
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/2acc4bd035f54370b307d2119518a211.png)
+<center><b>图 2 数据集详情</b></center>
+
+### 实验环境准备:
+
+一:MySQL的安装:
+
+二:Navicat Premium 17的安装:
+
+### 数据库准备:
+一:在MySQL中创建相关数据库
+
+```sql
+create database taobao;
+use taobao;
+create table user_behavior (
+  user_id int(9), item_id int(9), 
+  category_id int(9), 
+  behavior_type varchar(5), 
+  timestamp int(14)
+);
+```
+
+二:在Navicat Premium 通过导入向导将数据导入(但是数据量可能过大,会导致导入速度很慢)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/8feefb1d77714d6b9c1d34f5a3811135.png)
+
+PS:你可以通过kettle以及安装必要的JDK,通过设置运行kettle来进行数据传输,具体看官方介绍:
+
+** [kettle](http://www.kettle.org.cn/)** <<<<< **可点击中具体查看**
+
+
+
+
+
+
+
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/330f7bc823c144c8b814921d5d9ae4aa.png)
 
 
-<center><b>图 2 项目预处理图</b></center>
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210112170223198.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dtZXRidGdia2k=,size_16,color_FFFFFF,t_70#pic_center)
-
-
-数据库准备:
-一:在MySQL中创建相关数据库
-
+<center><b>图 3 项目预处理图</b></center>
