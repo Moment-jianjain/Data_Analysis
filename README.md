@@ -22,7 +22,7 @@
 #### 本文基于这个问题，针对淘宝用户购物行为数据集进行"获客情况" "留存情况" "时间序列分析" "用户转化率分析" "行为路径分析" "RFM模型" "商品按热度分类
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/1c4d717107404e438233c4df0c518893.png)
-![在这里插入图片描述](Tableau Data analysis/用户收藏加购与购买关系.jpg)
+![在这里插入图片描述](https://github.com/Moment-jianjain/Data_Analysis/blob/picture/Tableau%20Data%20analysis/%E7%94%A8%E6%88%B7%E6%94%B6%E8%97%8F%E5%8A%A0%E8%B4%AD%E4%B8%8E%E8%B4%AD%E4%B9%B0%E5%85%B3%E7%B3%BB.jpg)
 
 <center><b>图 1 用户行为日内详细分析</b></center>
 
