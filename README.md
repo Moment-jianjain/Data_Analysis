@@ -22,12 +22,14 @@
 #### 本文基于这个问题，针对淘宝用户购物行为数据集进行"获客情况" "留存情况" "时间序列分析" "用户转化率分析" "行为路径分析" "RFM模型" "商品按热度分类
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/ca1804e73c294b30b1befb9ba076373e.jpeg)
+
 <center><b>图 1 用户行为日内详细分析</b></center>
+
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b413d46f7cf24a76b5c2f5b8729bfc79.jpeg)
 
+
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/c6d151d118614eef8d29accb0394f157.jpeg)
-<center><b>图 1 用户行为日内详细分析</b></center>
 
 
 ## 2. 环境准备
